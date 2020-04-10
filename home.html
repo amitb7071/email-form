@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Registration Form Amit </title>
+  <link rel="stylesheet"  type="text/css" href="script/design.css" >
+ 
+</head>
+
+<body>
+<div >
+    <div class="container"   >  
+        <form Style="display: inline-block;"  method="POST" action="php/insertData.php">
+            <table class="td">
+                <tr> 
+                    <td>First Name: </td>
+                    <td> <input  class="td" type="test" placeholder="Enter your first name"  name="firstname"></td>
+                </tr>
+
+                <tr> 
+                    <td>Last Name: </td>
+                    <td> <input class="td" type="test" placeholder="Enter your last name" name="lastname"></td>
+                </tr>
+
+                <tr> 
+                    <td>Email Id: </td>
+                    <td> <input class="td" type="email" placeholder="Enter your email id" name="email" required></td>
+                </tr>
+                
+                <tr> 
+                    <td>Select Gender: </td>
+                    <td> <input class="td" type="radio" value="male" name="gender">Male   <input type="radio" value="female" name="gender">Female</td>
+                </tr>
+
+                <tr> 
+                    <td>Date Of Berth: </td>
+                    <td> <input class="td" type="Date"  name="dob"></td>
+                </tr>
+
+                <tr> 
+                    <td>Create Password:</td>
+                    <td> 
+                        <input class="td" type="password" id="psw" name="password"
+                          required>
+
+                    </td>
+                </tr>
+                <tr> 
+                    <td>Conferm Password:</td>
+                    <td> 
+                        <input class="td" type="password" id="psw" name="cpassword" 
+                          required>
+
+                    </td>
+                </tr>
+
+                <tr> 
+                        <td> <input class="td" type="checkbox"  name="check" required> I agree</td>
+                </tr>
+
+                <tr>
+                   <td> <button  class="btnreset" >Reset</button></td> 
+                   <td> <button  class="btnsubmit" >Submit</button></td>
+                </tr>
+            
+            </table>
+        </form>
+            
+
+    </div>
+</div>
+
+</body>
+
+</html>
